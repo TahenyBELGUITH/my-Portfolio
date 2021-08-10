@@ -22,14 +22,21 @@
 </head>
 
 <body>
-  <nav>
-    <a href="index.html">BELGUITH</a>
-    <div class="humburger-btn">
+  <nav id="navbar">
+    <a class="brand" href="index.html">BELGUITH</a>
+    <a class="closebtn" id="close">&times;</a>
+    <ul id="links">
+      <li class="myitems"><a href="#works">Portfolio</a> </li>
+      <li class="myitems"><a href="#about">About</a></li>
+      <li class="myitems"><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="humburger-btn" id="humburger">
       <span class="span-1"></span>
       <span class="span-2"></span>
       <span class="span-3"></span>
     </div>
   </nav>
+
   <header>
     <hgroup>
       <h1> <span class="Iam">I’m </span>Taheny</h1>
@@ -38,7 +45,7 @@
     <p>I’m <span class="Iam2"> a software developer! </span>I can help you build a product , feature or website Look
       through some of my work and
       experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-    <a class="btn" href="#">View my projects</a>
+    <a class="btn" href="#works">View my projects</a>
     <hr>
     <p class="connect">LET'S CONNECT</p>
 
@@ -61,181 +68,209 @@
       </li>
     </ul>
   </header>
-  <section class="articles-section">
+  <section class="articles-section" id="works">
     <h2 class="item-title">My Projects</h2>
     <article class="project1">
-      <img src="./images/tonic1.svg" alt="project one">
-      <h1>Tonic</h1>
-      <div class="company-details">
-        <p class="company-name">CANOPY</p>
-        &#9675;
-        <p class="details">Back-End</p>
-        &#9675;
-        <p class="details">2015</p>
+      <div>
+        <img src="./images/tonic1.svg" alt="project one">
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="requirements">
-        <li class="requirements-item">Html</li>
-        <li class="requirements-item">Css</li>
-        <li class="requirements-item">javaScript</li>
-      </ul>
-      <button class="see-project">See Project</button>
+      <div>
+        <h1>Tonic</h1>
+        <div class="company-details">
+          <p class="company-name">CANOPY</p>
+          &#9675;
+          <p class="details">Back-End</p>
+          &#9675;
+          <p class="details">2015</p>
+        </div>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="requirements">
+          <li class="requirements-item">Html</li>
+          <li class="requirements-item">Css</li>
+          <li class="requirements-item">javaScript</li>
+        </ul>
+        <button class="see-project">See Project</button>
+      </div>
     </article>
 
     <article class="project1">
-      <img src="./images/tonic2.svg" alt="project one">
-      <h1>Multi-Post
-        Stories</h1>
-      <div class="company-details">
-        <p class="company-name">CANOPY</p>
-        &#9675;
-        <p class="details">Back-End</p>
-        &#9675;
-        <p class="details">2015</p>
+      <div>
+        <img src="./images/tonic2.svg" alt="project one">
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="requirements">
-        <li class="requirements-item">Html</li>
-        <li class="requirements-item">Css</li>
-        <li class="requirements-item">javaScript</li>
-      </ul>
-      <button class="see-project">See Project</button>
+      <div>
+        <h1>Multi-Post
+          Stories</h1>
+        <div class="company-details">
+          <p class="company-name">CANOPY</p>
+          &#9675;
+          <p class="details">Back-End</p>
+          &#9675;
+          <p class="details">2015</p>
+        </div>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="requirements">
+          <li class="requirements-item">Html</li>
+          <li class="requirements-item">Css</li>
+          <li class="requirements-item">javaScript</li>
+        </ul>
+        <button class="see-project">See Project</button>
+      </div>
     </article>
 
     <article class="project1">
-      <img src="./images/tonic6.svg" alt="project one">
-      <h1>Tonic</h1>
-      <div class="company-details">
-        <p class="company-name">CANOPY</p>
-        &#9675;
-        <p class="details">Back-End</p>
-        &#9675;
-        <p class="details">2015</p>
+      <div>
+        <img src="./images/tonic6.svg" alt="project one">
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="requirements">
-        <li class="requirements-item">Html</li>
-        <li class="requirements-item">Css</li>
-        <li class="requirements-item">javaScript</li>
-      </ul>
-      <button class="see-project">See Project</button>
+      <div>
+        <h1>Tonic</h1>
+        <div class="company-details">
+          <p class="company-name">CANOPY</p>
+          &#9675;
+          <p class="details">Back-End</p>
+          &#9675;
+          <p class="details">2015</p>
+        </div>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="requirements">
+          <li class="requirements-item">Html</li>
+          <li class="requirements-item">Css</li>
+          <li class="requirements-item">javaScript</li>
+        </ul>
+        <button class="see-project">See Project</button>
+      </div>
     </article>
 
     <article class="project1">
-      <img src="./images/tonic3.svg" alt="project one">
-      <h1>Multi-Post
-        Stories</h1>
-      <div class="company-details">
-        <p class="company-name">CANOPY</p>
-        &#9675;
-        <p class="details">Back-End</p>
-        &#9675;
-        <p class="details">2015</p>
+      <div>
+        <img src="./images/tonic3.svg" alt="project one">
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="requirements">
-        <li class="requirements-item">Html</li>
-        <li class="requirements-item">Css</li>
-        <li class="requirements-item">javaScript</li>
-      </ul>
-      <button class="see-project">See Project</button>
+      <div>
+        <h1>Multi-Post
+          Stories</h1>
+        <div class="company-details">
+          <p class="company-name">CANOPY</p>
+          &#9675;
+          <p class="details">Back-End</p>
+          &#9675;
+          <p class="details">2015</p>
+        </div>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="requirements">
+          <li class="requirements-item">Html</li>
+          <li class="requirements-item">Css</li>
+          <li class="requirements-item">javaScript</li>
+        </ul>
+        <button class="see-project">See Project</button>
+      </div>
     </article>
 
     <article class="project1">
-      <img src="./images/tonic4.svg" alt="project one">
-      <h1>Tonic</h1>
-      <div class="company-details">
-        <p class="company-name">CANOPY</p>
-        &#9675;
-        <p class="details">Back-End</p>
-        &#9675;
-        <p class="details">2015</p>
+      <div>
+        <img src="./images/tonic4.svg" alt="project one">
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="requirements">
-        <li class="requirements-item">Html</li>
-        <li class="requirements-item">Css</li>
-        <li class="requirements-item">javaScript</li>
-      </ul>
-      <button class="see-project">See Project</button>
+      <div>
+        <h1>Tonic</h1>
+        <div class="company-details">
+          <p class="company-name">CANOPY</p>
+          &#9675;
+          <p class="details">Back-End</p>
+          &#9675;
+          <p class="details">2015</p>
+        </div>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="requirements">
+          <li class="requirements-item">Html</li>
+          <li class="requirements-item">Css</li>
+          <li class="requirements-item">javaScript</li>
+        </ul>
+        <button class="see-project">See Project</button>
+      </div>
     </article>
 
     <article class="project1">
-      <img src="./images/tonic5.svg" alt="project one">
-      <h1>Multi-Post
-        Stories</h1>
-      <div class="company-details">
-        <p class="company-name">CANOPY</p>
-        &#9675;
-        <p class="details">Back-End</p>
-        &#9675;
-        <p class="details">2015</p>
+      <div>
+        <img src="./images/tonic5.svg" alt="project one">
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="requirements">
-        <li class="requirements-item">Html</li>
-        <li class="requirements-item">Css</li>
-        <li class="requirements-item">javaScript</li>
-      </ul>
-      <button class="see-project">See Project</button>
+      <div>
+        <h1>Multi-Post
+          Stories</h1>
+        <div class="company-details">
+          <p class="company-name">CANOPY</p>
+          &#9675;
+          <p class="details">Back-End</p>
+          &#9675;
+          <p class="details">2015</p>
+        </div>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="requirements">
+          <li class="requirements-item">Html</li>
+          <li class="requirements-item">Css</li>
+          <li class="requirements-item">javaScript</li>
+        </ul>
+        <button class="see-project">See Project</button>
+      </div>
     </article>
   </section>
-  <section class="about-me">
-    <h1>About
-      Myself</h1>
-    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work
-      and
-      experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-    <p class="connect">LET'S CONNECT</p>
-    <ul class="social ">
-      <li>
-        <a href="https://twitter.com/BelguithTaheny "><img src="./images/twitter.svg " alt="twitter "></a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/belguith-taheny-47b93a162/ "><img src="./images/linkedin.svg "
-            alt="linkedin "></a>
-      </li>
-      <li>
-        <a href="https://medium.com/@tahnyybelguith "><img src="./images/medium.svg " alt="medium "></a>
-      </li>
-      <li>
-        <a href="https://github.com/TahenyBELGUITH "><img src="./images/github.svg " alt="github "></a>
-      </li>
-      <li>
-        <a href="https://angel.co/jobs"><img src="./images/angellist.svg " alt="angellist "></a>
-      </li>
-    </ul>
-    <a class="btn" href="#">Get My Resume</a>
+  <section class="about-me" id="about">
+    <div>
+      <h1>About
+        Myself</h1>
+      <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
+        work
+        and
+        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+      <p class="connect">LET'S CONNECT</p>
+      <ul class="social ">
+        <li>
+          <a href="https://twitter.com/BelguithTaheny "><img src="./images/twitter.svg " alt="twitter "></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/belguith-taheny-47b93a162/ "><img src="./images/linkedin.svg "
+              alt="linkedin "></a>
+        </li>
+        <li>
+          <a href="https://medium.com/@tahnyybelguith "><img src="./images/medium.svg " alt="medium "></a>
+        </li>
+        <li>
+          <a href="https://github.com/TahenyBELGUITH "><img src="./images/github.svg " alt="github "></a>
+        </li>
+        <li>
+          <a href="https://angel.co/jobs"><img src="./images/angellist.svg " alt="angellist "></a>
+        </li>
+      </ul>
+      <a class="btn" href="#">Get My Resume</a>
+
+    </div>
+    <div>
+      <div class="summary">
+        <details class="about-skills">
+          <summary class="summary-languages">Languages</summary>
+          <ul class="list">
+            <li class="list-item"><img src="./images/html.svg" alt="Html pic"></li>
+            <li class="list-item">HTML</li>
+          </ul>
+          <ul class="list">
+            <li class="list-item"><img src="./images/css.svg" alt="Html pic"></li>
+            <li class="list-item">CSS</li>
+          </ul>
+          <ul class="list">
+            <li class="list-item"><img src="./images/js.svg" alt="Html pic"></li>
+            <li class="list-item">javaScript</li>
+          </ul>
+        </details>
+
+        <details class="about-skills">
+          <summary class="summary-frameworks">Frameworks</summary>
+        </details>
 
 
-    <div class="summary">
-      <details class="about-skills">
-        <summary>Languages</summary>
-        <ul class="list">
-          <li class="list-item"><img src="./images/html.svg" alt="Html pic"></li>
-          <li class="list-item">HTML</li>
-        </ul>
-        <ul class="list">
-          <li class="list-item"><img src="./images/css.svg" alt="Html pic"></li>
-          <li class="list-item">CSS</li>
-        </ul>
-        <ul class="list">
-          <li class="list-item"><img src="./images/js.svg" alt="Html pic"></li>
-          <li class="list-item">javaScript</li>
-        </ul>
-      </details>
-
-      <details class="about-skills">
-        <summary>Frameworks</summary>
-      </details>
-
-
-      <details class="about-skills">
-        <summary>Skills</summary>
-      </details>
+        <details class="about-skills">
+          <summary class="summary-skills">Skills</summary>
+        </details>
+      </div>
     </div>
   </section>
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <h1>Contact me</h1>
     <p>If you have an application you are interested in developing, a feature that you need built or a project that
       needs
@@ -247,6 +282,7 @@
       <input type="submit" value="Get in Touch">
     </form>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
