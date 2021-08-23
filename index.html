@@ -275,14 +275,18 @@
     <p>If you have an application you are interested in developing, a feature that you need built or a project that
       needs
       coding. I’d love to help with it</p>
-    <form action="https://formspree.io/f/mknkvkrk" class="form-container" method="POST">
+    <form id="form" action="https://formspree.io/f/mknkvkrk" class="form-container" method="POST">
       <input type="text" name="firstname" placeholder="Your name.." required>
-      <input type="email" name="email" placeholder="Your Email.." required>
+      <p id="invalid"></p>
+      <input id="mail" type="email" name="email" placeholder="Your Email.." required>
       <textarea name="message" id="message" cols="50" rows="10" placeholder="Leave your message here.."></textarea>
       <input type="submit" value="Get in Touch">
     </form>
   </footer>
-  <script src="script.js"></script>
+  <script src="burgerButton.js"></script>
+  <script src="validate-form.js"></script>
+  <script src="popWindow.js"></script>
+
 </body>
 
 </html>
